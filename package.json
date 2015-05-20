@@ -1,0 +1,43 @@
+{
+  "name": "iobroker.icons-mfd-svg",
+  "description": "Icon set for visualisation of the home automation as SVG.",
+  "version": "0.1.0",
+  "author": "bluefox <bluefox@ccu.io>",
+  "contributors": [
+    "bluefox <bluefox@ccu.io>"
+  ],
+  "homepage": "https://github.com/ioBroker/ioBroker.icons-mfd-svg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ioBroker/ioBroker.icons-mfd-svg"
+  },
+  "licenses": [
+    {
+      "type": "CC BY-SA 3.0",
+      "url": "https://github.com/ioBroker/ioBroker.icons-mfd-svg/blob/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "ioBroker",
+    "icons",
+    "mfd-svg",
+	"home automation"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-curl": "~2.2.0",
+    "grunt-tar.gz": "~0.0.3",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ioBroker/ioBroker.icons-mfd-svg/issues"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
