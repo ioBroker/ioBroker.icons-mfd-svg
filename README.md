@@ -1,4 +1,4 @@
-![Logo](admin/icons-mfd-svg.svg)
+![Logo](admin/icons-mfd-svg.png)
 ioBroker.icons-mfd-svg
 =================
 
