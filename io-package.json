@@ -1,7 +1,7 @@
 {
     "common": {
         "name":         "icons-mfd-svg",
-        "version":      "0.1.0",
+        "version":      "0.1.1",
         "title":        "Mfd icons as SVG",
         "desc":         {
             "en": "Icon set for visualisation for home automation as SVG.",
@@ -23,8 +23,8 @@
         "enabled":      true,
         "onlyWWW":      true,
         "singleton":    true,
-        "localLink":    "http://%ip%:%web_port%/icons-mfd-png/index.html",
-		"type":         "visualisation",
+        "localLink":    "%web_protocol%://%ip%:%web_port%/icons-mfd-png/index.html",
+		"type":         "vis",
         "license":      "CC BY-SA 3.0"
     },
     "native": {
