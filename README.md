@@ -15,6 +15,9 @@ User: mfd
 - install "icons-mfd-svg" icon set (as adapter) and navigate in ioBroker.vis in image selector dialog to "/icons-mfd-svg/".
 
 ## Changelog
+### 0.1.2 (2015-09-22)
+* (bluefox) fix link in admin
+
 ### 0.1.0 (2015-05-20)
 * (bluefox) initial commit
 

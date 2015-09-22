@@ -1,7 +1,7 @@
 {
   "name": "iobroker.icons-mfd-svg",
   "description": "Icon set for visualisation of the home automation as SVG.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "bluefox <bluefox@ccu.io>",
   "contributors": [
     "bluefox <bluefox@ccu.io>"
