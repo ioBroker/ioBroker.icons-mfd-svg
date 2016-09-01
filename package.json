@@ -1,10 +1,10 @@
 {
   "name": "iobroker.icons-mfd-svg",
   "description": "Icon set for visualisation of the home automation as SVG.",
-  "version": "0.1.2",
-  "author": "bluefox <bluefox@ccu.io>",
+  "version": "1.0.0",
+  "author": "bluefox <dogafox@gmail.com>",
   "contributors": [
-    "bluefox <bluefox@ccu.io>"
+    "bluefox <dogafox@gmail.com>"
   ],
   "homepage": "https://github.com/ioBroker/ioBroker.icons-mfd-svg",
   "repository": {
@@ -26,11 +26,11 @@
   "dependencies": {
   },
   "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-curl": "~2.2.0",
-    "grunt-tar.gz": "~0.0.3",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-copy": "~0.5.0"
+    "grunt": "^0.4.4",
+    "grunt-curl": "^2.2.0",
+    "grunt-tar.gz": "^0.0.3",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-copy": "^0.5.0"
   },
   "bugs": {
     "url": "https://github.com/ioBroker/ioBroker.icons-mfd-svg/issues"

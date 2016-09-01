@@ -1,7 +1,7 @@
 {
     "common": {
         "name":         "icons-mfd-svg",
-        "version":      "0.1.2",
+        "version":      "1.0.0",
         "title":        "Mfd icons as SVG",
         "desc":         {
             "en": "Icon set for visualisation for home automation as SVG.",
@@ -10,7 +10,7 @@
         },
         "authors": [
             "mfd<mfd.gfx@gmail.com>",
-            "bluefox <bluefox@ccu.io>"
+            "bluefox <dogafox@gmail.com>"
         ],
         "platform":     "javascript/Node.js",
         "icon":         "icons-mfd-svg.png",
