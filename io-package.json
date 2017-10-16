@@ -1,16 +1,16 @@
 {
     "common": {
-        "name":         "icons-mfd-svg",
-        "version":      "1.0.2",
-		"news": {
+        "name": "icons-mfd-svg",
+        "version": "1.0.2",
+        "news": {
             "1.0.2": {
                 "en": "update mfd icons (more new icons)",
                 "de": "Update mfd bilder (mehr neue Bilder)",
                 "ru": "Добавлены иконки"
             }
-		},
-        "title":        "Mfd icons as SVG",
-        "desc":         {
+        },
+        "title": "Mfd icons as SVG",
+        "desc": {
             "en": "Icon set for visualisation for home automation as SVG.",
             "de": "Bildersatz für die Visualisierung von Hausautomatisierung als SVG",
             "ru": "Набор иконок для визуализации дома в SVG"
@@ -19,24 +19,27 @@
             "mfd<mfd.gfx@gmail.com>",
             "bluefox <dogafox@gmail.com>"
         ],
-        "platform":     "javascript/Node.js",
-        "icon":         "icons-mfd-svg.png",
-        "mode":         "none",
-        "keywords":     ["icons", "mfd", "knx"],
-        "extIcon":      "https://raw.githubusercontent.com/ioBroker/ioBroker.icons-mfd-svg/master/admin/icons-mfd-svg.png",
-        "readme":       "https://github.com/ioBroker/ioBroker.icons-mfd-svg/blob/master/README.md",
-        "loglevel":     "info",
-        "dependencies": ["web"],
-        "enabled":      true,
-        "onlyWWW":      true,
-        "singleton":    true,
-        "localLink":    "%web_protocol%://%ip%:%web_port%/icons-mfd-svg/index.html",
-		"type":         "vis",
-        "license":      "CC BY-SA 3.0"
+        "platform": "javascript/Node.js",
+        "icon": "icons-mfd-svg.png",
+        "mode": "none",
+        "keywords": [
+            "icons",
+            "mfd",
+            "knx"
+        ],
+        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.icons-mfd-svg/master/admin/icons-mfd-svg.png",
+        "readme": "https://github.com/ioBroker/ioBroker.icons-mfd-svg/blob/master/README.md",
+        "loglevel": "info",
+        "dependencies": [
+            "web"
+        ],
+        "enabled": true,
+        "onlyWWW": true,
+        "singleton": true,
+        "localLink": "%web_protocol%://%ip%:%web_port%/icons-mfd-svg/index.html",
+        "type": "visualization-icons",
+        "license": "CC BY-SA 3.0"
     },
-    "native": {
-
-    },
-    "objects": [
-    ]
+    "native": {},
+    "objects": []
 }
