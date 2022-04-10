@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "icons-mfd-svg",
-        "version": "1.0.2",
+        "version": "1.1.0",
         "news": {
+            "1.1.0": {
+                "en": "update mfd icons (many new icons)",
+                "de": "mfd-Icons aktualisieren (viele neue Icons)",
+                "ru": "обновить иконки mfd (много новых иконок)",
+                "pt": "atualizar ícones mfd (muitos novos ícones)",
+                "nl": "update mfd-pictogrammen (veel nieuwe pictogrammen)",
+                "fr": "mettre à jour les icônes mfd (beaucoup de nouvelles icônes)",
+                "it": "aggiorna le icone mfd (molte nuove icone)",
+                "es": "actualizar iconos mfd (muchos iconos nuevos)",
+                "pl": "zaktualizuj ikony mfd (wiele nowych ikon)",
+                "zh-cn": "更新 mfd 图标（许多新图标）"
+            },
             "1.0.2": {
                 "en": "update mfd icons (more new icons)",
                 "de": "Update mfd bilder (mehr neue Bilder)",
@@ -10,16 +22,35 @@
             }
         },
         "title": "Mfd icons as SVG",
+        "titleLang": {
+            "en": "Mfd icons as SVG",
+            "de": "Mfd-Icons als SVG",
+            "ru": "Иконки Mfd в формате SVG",
+            "pt": "Mfd ícones como SVG",
+            "nl": "Mfd-pictogrammen als SVG",
+            "fr": "Icônes Mfd en SVG",
+            "it": "Icone Mfd come SVG",
+            "es": "Iconos mfd como SVG",
+            "pl": "Ikony MFD jako SVG",
+            "zh-cn": "Mfd 图标为 SVG"
+        },
         "desc": {
-            "en": "Icon set for visualisation for home automation as SVG.",
-            "de": "Bildersatz für die Visualisierung von Hausautomatisierung als SVG",
-            "ru": "Набор иконок для визуализации дома в SVG"
+            "en": "Icon set for visualisation for home automation as SVG",
+            "de": "Icon-Set zur Visualisierung für die Hausautomation als SVG",
+            "ru": "Набор иконок для визуализации домашней автоматизации в формате SVG",
+            "pt": "Conjunto de ícones para visualização para automação residencial como SVG",
+            "nl": "Icon set voor visualisatie voor domotica als SVG",
+            "fr": "Jeu d'icônes pour la visualisation de la domotique au format SVG",
+            "it": "Icona impostata per la visualizzazione per la domotica come SVG",
+            "es": "Conjunto de iconos para visualización de domótica como SVG",
+            "pl": "Zestaw ikon do wizualizacji automatyki domowej jako SVG",
+            "zh-cn": "用于将家庭自动化可视化为 SVG 的图标集"
         },
         "authors": [
             "mfd<mfd.gfx@gmail.com>",
             "bluefox <dogafox@gmail.com>"
         ],
-        "platform": "javascript/Node.js",
+        "platform": "Javascript/Node.js",
         "icon": "icons-mfd-svg.png",
         "mode": "none",
         "keywords": [
@@ -38,7 +69,10 @@
         "singleton": true,
         "localLink": "%web_protocol%://%ip%:%web_port%/icons-mfd-svg/index.html",
         "type": "visualization-icons",
-        "license": "CC BY-SA 3.0"
+        "license": "CC BY-SA 3.0",
+        "connectionType": "none",
+        "dataSource": "none",
+        "tier": 3
     },
     "native": {},
     "objects": []

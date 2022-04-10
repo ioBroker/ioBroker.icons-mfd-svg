@@ -34,11 +34,10 @@ module.exports = function (grunt) {
         curl: {
             '.build/icons.tar.gz': httpSrcPath
         },
-        targz: {
+        exec: {
             icons: {
-                files: {
-                    ".build/icons":  ".build/icons.tar.gz"
-                }
+                command: 'mkdir .build/icons/ && tar -xvf .build/icons.tar.gz -C .build/icons/',
+                stdout: true
             }
         }
     });
@@ -84,14 +83,14 @@ module.exports = function (grunt) {
     });
 
     grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-tar.gz');
+    grunt.loadNpmTasks('grunt-exec');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-curl');
 
     grunt.registerTask('default', [
         'clean',
         'curl',
-        'targz',
+        'exec',
         'copy',
         'updateList'
     ]);

@@ -2,3 +2,5 @@
 node_modules
 .build
 www/*
+package-lock.json
+ICONLIST.md
