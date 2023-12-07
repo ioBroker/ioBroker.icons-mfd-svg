@@ -3,6 +3,4 @@ Gruntfile.js
 .idea
 node_modules
 test
-.travis.yml
-appveyor.yml
 .gitignore

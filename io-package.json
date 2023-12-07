@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "icons-mfd-svg",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "news": {
+            "1.2.0": {
+                "en": "update mfd icons (many new icons)",
+                "de": "mfd-Icons aktualisieren (viele neue Icons)",
+                "ru": "обновить иконки mfd (много новых иконок)",
+                "pt": "atualizar ícones mfd (muitos novos ícones)",
+                "nl": "update mfd-pictogrammen (veel nieuwe pictogrammen)",
+                "fr": "mettre à jour les icônes mfd (beaucoup de nouvelles icônes)",
+                "it": "aggiorna le icone mfd (molte nuove icone)",
+                "es": "actualizar iconos mfd (muchos iconos nuevos)",
+                "pl": "zaktualizuj ikony mfd (wiele nowych ikon)",
+                "zh-cn": "更新 mfd 图标（许多新图标）"
+            },
             "1.1.0": {
                 "en": "update mfd icons (many new icons)",
                 "de": "mfd-Icons aktualisieren (viele neue Icons)",
