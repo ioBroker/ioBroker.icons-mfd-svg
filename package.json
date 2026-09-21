@@ -21,7 +21,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "grunt": "^1.6.1",
+    "grunt": "^1.6.3",
     "grunt-curl": "^2.5.1",
     "grunt-exec": "^3.0.0",
     "grunt-contrib-clean": "^2.0.1",
