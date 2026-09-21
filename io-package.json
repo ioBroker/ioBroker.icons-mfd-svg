@@ -81,7 +81,10 @@
         "singleton": true,
         "localLink": "%web_protocol%://%ip%:%web_port%/icons-mfd-svg/index.html",
         "type": "visualization-icons",
-        "license": "CC BY-SA 3.0",
+        "licenseInformation": {
+            "type": "free",
+            "license": "CC BY-SA 3.0"
+        },
         "connectionType": "none",
         "dataSource": "none",
         "tier": 3
